@@ -1,0 +1,26 @@
+"unetplusplus_original_data_4bands":
+    - trained on original data with 80 10 10 split
+    - images are 512x512
+    - images are 4 bands just like the original
+
+"unetplusplus_augmented_data_2bands":
+    - augmented train data with filteration
+    - images resized to 256x256
+    - 2 bands only
+
+"checkpoint_epoch_2":
+    - augmented train data with filtration with 10 augmentations per train image
+    - images resized to 128x128
+    - 2 bands only
+"checkpoint_epoch_10":
+    - augmented train data with filtration with 10 augmentations per train image
+    - images resized to 128x128
+    - 2 bands only
+    - Average Dice Coefficient on Test Set: 0.8174
+    - Total (Overall) Dice Coefficient on Test Set: 0.9157
+"checkpoint_epoch_10_all_data":
+    - augmented train data without filtration with 3 augmentations per train image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set: 0.8018
+    - Total (Overall) Dice Coefficient on Test Set: 0.9124
