@@ -24,3 +24,8 @@
     - 2 bands only
     - Average Dice Coefficient on Test Set: 0.8018
     - Total (Overall) Dice Coefficient on Test Set: 0.9124
+"checkpoint_epoch_8_man_filtered" and  "checkpoint_epoch_10_man_filtered":
+    - augmented train data with manual filtration with 3 augmentations per train image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set: 0.8757
