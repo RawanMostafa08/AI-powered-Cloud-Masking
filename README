@@ -31,7 +31,7 @@ project_root/
 
 1. **Navigate to the Final Deliverables folder**:
    ```bash
-   cd Final Deliverables
+   cd "Final Deliverables"
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
@@ -60,7 +60,7 @@ project_root/
 
 1. **Ensure you are in the `Final Deliverables` directory**:
    ```bash
-   cd Final Deliverables
+   cd "Final Deliverables"
    ```
 
 2. **Run the inference script**:

@@ -81,7 +81,7 @@ model = smp.DeepLabV3Plus(
     in_channels=2,                 
     classes=1,                     
 )
-model.load_state_dict(torch.load("../deeplabv3_final_model/deeplabv3_ckpt_epoch_18.pth", map_location=device))
+model.load_state_dict(torch.load("./deeplabv3_final_model/deeplabv3_ckpt_epoch_18.pth", map_location=device))
 model.to(device)
 
 # Read the submission CSV
