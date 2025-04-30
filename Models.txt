@@ -29,3 +29,51 @@
     - images resized to 256x256
     - 2 bands only
     - Average Dice Coefficient on Test Set: 0.8757
+"deeplabv3":
+    - deeplabv3 model with lr=0.01, 10 epochs
+    - augmented train data with manual filteration with 3 augmentations per image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set: 0.8757
+"deeplabv3_ckpt_epoch_18":
+    - deeplab with lr = 1e-4
+    - augmented train data with manual filtration with 3 augmentations per train image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set: 0.880054
+    - all dataset = 0.89534
+----------------edge:
+    - deeplab with lr = 1e-4
+    - augmented train data with manual filtration with no augmentations
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set: -- not the best msh fakra kam
+----------------chrome:
+    - unet with lr = 1e-4
+    - augmented train data with manual filtration with 3 augmentations per train image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set:  -- not the best msh fakra kam
+
+FPN_ckpt_epoch_6:
+    - FPN with lr = 1e-3
+    - augmented train data with manual filtration with 3 augmentations per train image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set : 0.88528
+    - Average Dice Coefficient on all data : 0.88748
+
+FPN_ckpt_epoch_20lr3: ************************************************************************
+    - FPN with lr = 1e-3
+    - augmented train data with manual filtration with 3 augmentations per train image
+    - images resized to 256x256
+    - 2 bands only
+    - Average Dice Coefficient on Test Set : 0.8879
+    - Average Dice Coefficient on all data : 0.90607
+
+FPN_indeces_epoch_10:
+   - lr = 1e-3
+   - no augmentation, manual filtration
+   - images resized to 256x256
+   - 2 bands only + 2 indeces (ndwi,ndvi)
+   - average dice on test set = 0.65417
