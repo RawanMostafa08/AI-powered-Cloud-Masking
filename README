@@ -7,6 +7,11 @@ such as urban planning, deforestation monitoring, and agriculture. <br> <br>
 To address the cloud obstruction issue in optical satellite imagery, a reliable method is needed to 
 detect then remove clouds, ensuring clearer and more usable images for analysis. 
 
+## Model Trials
+1- [deepLabV3Plus](https://www.kaggle.com/models/rawanmostafa/deeplabv3_ckpt_epoch_18_88/Other/default/1) <br>
+2- [FPN](https://www.kaggle.com/models/rmman2002/fpn_no_white_ckpt_epoch_20/Other/default/1) <br>
+3- [UnetPlusPlus](https://www.kaggle.com/models/rmman2002/unetpp_more_filtered_ckpt_epoch_10/Other/default/1) <br>
+
 ## File Structure
 
 The project is organized as follows, with all executable code and resources located in the `Final Deliverables` folder:
