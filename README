@@ -28,6 +28,7 @@ project_root/
     ├── run_inference.py                # The required inference scipt
     ├── sample_submission.csv           # The provided sample submission
     ├── team_13.csv                     # The submitted csv on Kaggle competition
+    ├── profile.py                      # Our custom profiler
 
 ```
 
